@@ -20,6 +20,10 @@
   background: #f7f7f7;
 }
 
+.containter {
+  margin-left: 0;
+}
+
 .main-content .container-main {
   display: inline-block;
   width: 100%;
