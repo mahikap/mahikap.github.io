@@ -449,6 +449,9 @@ nav ul li a {
   margin-bottom: 30px;
   overflow: hidden;
 }
+.popup-img:hover {
+  opacity:0.7;
+}
 
 .portfolio-thumbnail img {
   max-width: 100%;
