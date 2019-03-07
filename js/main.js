@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["'m Mahika Phutane", " Design", " Develop", " Creat Art", " Research", 
+      strings: ["'m Mahika Phutane", " Design", " Develop", " Create Art", " Research", 
       " Visualize", " Solve Problems"],
       typeSpeed: 100,
       loop: true,

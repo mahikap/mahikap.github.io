@@ -243,8 +243,8 @@ nav ul li a {
 /*  Header
 /*-----------------------------------------------------------------------------------*/
 
-#header {
-  background: url("../images/home-bg.jpg") repeat scroll center center / cover;
+#header .my-container{
+  background: url('../images/home-bg.jpg') repeat scroll center center / cover;
   height: 100vh;
 }
 
@@ -296,6 +296,8 @@ nav ul li a {
   margin-left: 0%;
   background: #f7f7f7;
   padding-top: 90px;
+  padding-left: 1%;
+  padding-right: 10px;
 }
 
 #about .div-img-bg {
@@ -446,7 +448,6 @@ nav ul li a {
 }
 
 .portfolio-thumbnail {
-  margin-bottom: 30px;
   overflow: hidden;
   padding: 10px;
   display: inherit;
@@ -537,6 +538,8 @@ nav ul li a {
 #contact {
   height: auto;
   width: 100%;
+  padding-left: 40%;
+  padding-bottom: 30%;
 }
 
 .contact-details {

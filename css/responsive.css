@@ -44,6 +44,10 @@
     padding-top: 15px;
     display: block;
   }
+  #header .my-container{
+    background: url('../images/home-bg2.jpg') repeat scroll center center / cover;
+    height: 100vh;
+  }
   /* About */
   .head-info .header-content .cmaster h1 {
     font-size: 32px;
