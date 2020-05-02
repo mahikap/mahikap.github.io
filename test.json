@@ -1,6 +1,6 @@
 [{
     "schedule_id":"test_esm_001",
-    "hours":[-1],
+    "hours":[0, 1],
     "randomize":5,
     "context":["ACTION_AWARE_BATTERY_CHARGING"],
     "start_date":"1-05-2020",
@@ -22,9 +22,9 @@
         },
         {"esm": {
             "esm_type": 2,
-            "esm_title":"Did you drink alcohol yesterday?",
-            "esm_instructions":"If you select \"no\" for this question, skip for the following questions",
-            "esm_radios":["Yes","No"],
+            "esm_title":"Did you feel axious today?",
+            "esm_instructions":"",
+            "esm_radios":["Yes","No", "Maybe"],
             "esm_submit":"Next",
             "esm_expiration_threshold": 0,
             "esm_trigger": "esm_basic_test_2",
@@ -66,7 +66,7 @@
         },
         {"esm": {
             "esm_type": 6,
-            "esm_title":"How many standard drinks did you have during this period?",
+            "esm_title":"How many times during the day did you feel anxious?",
             "esm_instructions":"",
             "esm_scale_min": 0,
             "esm_scale_max": 15,
@@ -87,15 +87,6 @@
             "esm_submit":"Next",
             "esm_expiration_threshold": 60,
             "esm_trigger": "esm_basic_test_7"
-            }
-        },
-        {"esm": {
-            "esm_type": 8,
-            "esm_title":"ESM PAM",
-            "esm_instructions":"Please select a date and time",
-            "esm_submit":"Next",
-            "esm_expiration_threshold": 60,
-            "esm_trigger": "esm_basic_test_8"
             }
         },
         {"esm":{
