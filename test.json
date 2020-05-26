@@ -1,104 +1,36 @@
 [{
     "schedule_id":"test_esm_001",
-    "hours":[0, 1],
+    "hours":[-1],
     "randomize":5,
     "context":["ACTION_AWARE_BATTERY_CHARGING"],
-    "start_date":"1-05-2020",
+    "start_date":"26-05-2020",
     "expiration":0,
     "end_date":"12-30-2025",
-    "notification_title":"AWARE ESM",
-    "notification_body":"Did you drink alcohol yesterday?",
+    "notification_title":"Weekly Check-Up",
+    "notification_body":"Please respond to these questions to the best of your ability.",
     "interface":0,
     "esms":[
-        {"esm": {
-            "esm_type": 1,
-            "esm_title":"Describe your mood in one word.",
-            "esm_instructions":"",
-            "esm_submit":"Next",
-            "esm_expiration_threshold": 60,
-            "esm_trigger": "esm_basic_test_1",
-            "esm_na": 0
-            }
+        {"esm":
+            {"esm_type":2,
+            "esm_radios":["Little or None: Absent or barely noticeable",
+                        "Mild: At a low level. It was possible to relax when I tried.",
+                        "Moderate: It was distressing at times. It was hard to relax or concentrate.",
+                        "Severe: It was intense most of the time. It was very difficult to relax.",
+                        "Extreme: It was overwhelming. It was impossible to relax."],
+            "esm_title":"OASIS",
+            "esm_instructions":"In the past week, when you have felt anxious, how intense or severe was your anxiety?",
+            "esm_submit":"Next"}
         },
-        {"esm": {
-            "esm_type": 2,
-            "esm_title":"Did you feel axious today?",
-            "esm_instructions":"",
-            "esm_radios":["Yes","No", "Maybe"],
-            "esm_submit":"Next",
-            "esm_expiration_threshold": 0,
-            "esm_trigger": "esm_basic_test_2",
-            "esm_na": 0
-            }
-        },
-        {"esm": {
-            "esm_type": 3,
-            "esm_title":"ESM Checkbox",
-            "esm_instructions":"The user can choose multiple options.",
-            "esm_checkboxes":["One","Two","Other"],
-            "esm_submit":"Next",
-            "esm_expiration_threshold": 60,
-            "esm_trigger": "esm_basic_test_3"
-            }
-        },
-        {"esm": {
-            "esm_type": 4,
-            "esm_title":"ESM Likert",
-            "esm_instructions":"User rating 1 to 5 or 7 at 1 step increments.",
-            "esm_likert_max":7,
-            "esm_likert_max_label":"Great",
-            "esm_likert_min_label":"Bad",
-            "esm_likert_step":1,
-            "esm_submit":"Next",
-            "esm_expiration_threshold": 60,
-            "esm_trigger": "esm_basic_test_4"
-            }
-        },
-        {"esm": {
-            "esm_type": 5,
-            "esm_title":"ESM Quick Answer",
-            "esm_instructions":"One touch answer.",
-            "esm_quick_answers":["YES","NO","Maybe"],
-            "esm_submit":"Next",
-            "esm_expiration_threshold": 60,
-            "esm_trigger": "esm_basic_test_5"
-            }
-        },
-        {"esm": {
-            "esm_type": 6,
-            "esm_title":"How many times during the day did you feel anxious?",
-            "esm_instructions":"",
-            "esm_scale_min": 0,
-            "esm_scale_max": 15,
-            "esm_scale_start": 10,
-            "esm_scale_max_label": "15",
-            "esm_scale_min_label": "1",
-            "esm_scale_step": 1,
-            "esm_submit":"Submit",
-            "esm_expiration_threshold": 0,
-            "esm_trigger": "esm_basic_test_6",
-            "esm_na": 0
-            }
-        },
-        {"esm": {
-            "esm_type": 7,
-            "esm_title":"ESM Date",
-            "esm_instructions":"Please select a date and time",
-            "esm_submit":"Next",
-            "esm_expiration_threshold": 60,
-            "esm_trigger": "esm_basic_test_7"
-            }
-        },
-        {"esm":{
-           "esm_type":9,
-           "esm_title":"ESM Number",
-           "esm_instructions":"Please input a number.",
-           "esm_submit":"Next",
-           "esm_expiration_threshold": 60,
-           "esm_trigger": "esm_basic_test_9"
+        {"esm":
+            {"esm_type":2,
+            "esm_radios":["None. I did not avoid any situations.",
+                        "Infrequent: I avoid something once in a while.",
+                        "Occasional: I have some fear of certain situations but it is still manageable.",
+                        "Frequent: I have considerable fear and I often avoid situations.",
+                        "All the time: Avoiding situations has taken over my life."],
+            "esm_title":"OASIS",
+            "esm_instructions":"In the past week, how often did you avoid situations because of anxiety or fear?",
+            "esm_submit":"OK"}
         }
-      }
-     ]
-   }
- ]
+    ]
  
