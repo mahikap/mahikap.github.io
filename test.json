@@ -1,6 +1,6 @@
 [{
     "schedule_id":"test_esm_001",
-    "hours":[-1],
+    "hours":[21],
     "randomize":5,
     "context":["daily_check"],
     "start_date":"06-04-2020",
@@ -12,7 +12,7 @@
     "esms":[
         {"esm":
             {"esm_type":2,
-            "esm_radios":["Little or None: It was absent or barely noticeable   ",
+            "esm_radios":["Little or None: It was absent or barely noticeable.   ",
                           "Mild: It was possible to relax when I tried.         ",
                           "Moderate: It was distressing and hard to relax.      ",
                           "Severe: It was intense and very difficult to relax.  ",
