@@ -1,6 +1,6 @@
 [{
     "schedule_id":"test_esm_001",
-    "hours":[9],
+    "hours":[15],
     "randomize":5,
     "context":["daily_check"],
     "start_date":"06-04-2020",
