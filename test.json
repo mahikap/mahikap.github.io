@@ -1,12 +1,12 @@
 [{
     "schedule_id":"test_esm_001",
-    "hours":[-1],
+    "hours":[9],
     "randomize":5,
-    "context":["ACTION_AWARE_BATTERY_CHARGING"],
-    "start_date":"26-05-2020",
+    "context":["daily_check"],
+    "start_date":"06-04-2020",
     "expiration":0,
     "end_date":"12-30-2025",
-    "notification_title":"Weekly Check-Up",
+    "notification_title":"Daily Check-Up",
     "notification_body":"Please respond to these questions to the best of your ability.",
     "interface":0,
     "esms":[
@@ -18,7 +18,8 @@
                         "Severe: It was intense most of the time. It was very difficult to relax.",
                         "Extreme: It was overwhelming. It was impossible to relax."],
             "esm_title":"OASIS",
-            "esm_instructions":"In the past week, when you have felt anxious, how intense or severe was your anxiety?",
+            "esm_instructions":"Today, when you felt anxious, how intense or severe was your anxiety?",
+            "esm_trigger": "q1",
             "esm_submit":"Next"}
         },
         {"esm":
@@ -29,7 +30,8 @@
                         "Frequent: I have considerable fear and I often avoid situations.",
                         "All the time: Avoiding situations has taken over my life."],
             "esm_title":"OASIS",
-            "esm_instructions":"In the past week, how often did you avoid situations because of anxiety or fear?",
+            "esm_instructions":"Today, how often did you avoid situations because of anxiety or fear?",
+            "esm_trigger": "q2",
             "esm_submit":"OK"}
         }
     ]
