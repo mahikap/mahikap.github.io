@@ -12,10 +12,10 @@
     "esms":[
         {"esm":
             {"esm_type":2,
-            "esm_radios":["Little or None: Absent or barely noticeable",
-                          "Mild: It was possible to relax when I tried.",
-                          "Moderate: It was distressing and hard to relax.",
-                          "Severe: It was intense and very difficult to relax.",
+            "esm_radios":["Little or None: It was absent or barely noticeable   ",
+                          "Mild: It was possible to relax when I tried.         ",
+                          "Moderate: It was distressing and hard to relax.      ",
+                          "Severe: It was intense and very difficult to relax.  ",
                           "Extreme: It was overwhelming and impossible to relax."],
             "esm_title":"OASIS",
             "esm_instructions":"Today, when you felt anxious, how intense or severe was your anxiety?",
