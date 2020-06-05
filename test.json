@@ -1,6 +1,6 @@
 [{
     "schedule_id":"test_esm_001",
-    "hours":[21],
+    "hours":[23],
     "randomize":5,
     "context":["daily_check"],
     "start_date":"06-04-2020",
@@ -12,6 +12,18 @@
     "esms":[
         {"esm":
             {"esm_type":2,
+            "esm_radios":["None: I felt little to no anxiety today.",
+                          "Infrequently: I felt anxious a few times",
+                          "Occassionally: I felt anxious half the time.",
+                          "Frequently: I felt anxious most of the time.",
+                          "Constantly: I felt anxious all of the time."],
+            "esm_title":"OASIS",
+            "esm_instructions":"Today, how often did you feel anxious?",
+            "esm_trigger": "q1",
+            "esm_submit":"Next"}
+        },
+        {"esm":
+            {"esm_type":2,
             "esm_radios":["Little or None: It was absent or barely noticeable.   ",
                           "Mild: It was possible to relax when I tried.         ",
                           "Moderate: It was distressing and hard to relax.      ",
@@ -19,19 +31,43 @@
                           "Extreme: It was overwhelming and impossible to relax."],
             "esm_title":"OASIS",
             "esm_instructions":"Today, when you felt anxious, how intense or severe was your anxiety?",
-            "esm_trigger": "q1",
+            "esm_trigger": "q2",
             "esm_submit":"Next"}
         },
         {"esm":
             {"esm_type":2,
-            "esm_radios":["None. I did not avoid any situations.",
+            "esm_radios":["Little to None. I did not avoid any situations.",
                           "Infrequent: I avoided something once in a while.",
                           "Occasional: I feared situations but still managed.",
                           "Frequent: I feared and often avoided situations.",
                           "All the time: Avoiding situations took over my day."],
             "esm_title":"OASIS",
             "esm_instructions":"Today, how often did you avoid situations because of anxiety or fear?",
-            "esm_trigger": "q2",
+            "esm_trigger": "q3",
+            "esm_submit":"OK"}
+        },
+        {"esm":
+            {"esm_type":2,
+            "esm_radios":["None. Little to no interference from anxiety whatsoever.",
+                          "Mild: Anxiety caused some interference with tasks.",
+                          "Moderate: Anxiety definitely interferes with tasks.",
+                          "Severe: Anxiety greatly changed my ability to do tasks",
+                          "Extreme: I am unable to complete tasks because of anxiety."],
+            "esm_title":"OASIS",
+            "esm_instructions":"Today, how much did anxiety interfere with your ability to do the things you needed to do?",
+            "esm_trigger": "q4",
+            "esm_submit":"OK"}
+        },
+        {"esm":
+            {"esm_type":2,
+            "esm_radios":["None. Anxiety doesn’t interfere with relationships.",
+                          "Mild: Anxiety slightly interferes with relationships.",
+                          "Moderate: Anxiety interferes with my social life.",
+                          "Severe: My social life has suffered because of anxiety.",
+                          "Extreme: Anxiety has completely disrupted my social life."],
+            "esm_title":"OASIS",
+            "esm_instructions":"Today, how much did anxiety interfere with your social life and relationships?",
+            "esm_trigger": "q5",
             "esm_submit":"OK"}
         }
     ]
