@@ -24,10 +24,10 @@
         },
         {"esm":
             {"esm_type":2,
-            "esm_radios":["Little or None: It was absent or barely noticeable.   ",
-                          "Mild: It was possible to relax when I tried.         ",
-                          "Moderate: It was distressing and hard to relax.      ",
-                          "Severe: It was intense and very difficult to relax.  ",
+            "esm_radios":["Little or None: It was absent or barely noticeable.",
+                          "Mild: It was mostly possible to relax when I tried.",
+                          "Moderate: It was distressing and hard to relax.",
+                          "Severe: It was intense and very difficult to relax.",
                           "Extreme: It was overwhelming and impossible to relax."],
             "esm_title":"OASIS",
             "esm_instructions":"Today, when you felt anxious, how intense or severe was your anxiety?",
@@ -44,19 +44,19 @@
             "esm_title":"OASIS",
             "esm_instructions":"Today, how often did you avoid situations because of anxiety or fear?",
             "esm_trigger": "q3",
-            "esm_submit":"OK"}
+            "esm_submit":"Next"}
         },
         {"esm":
             {"esm_type":2,
             "esm_radios":["None. Little to no interference from anxiety whatsoever.",
-                          "Mild: Anxiety caused some interference with tasks.",
-                          "Moderate: Anxiety definitely interferes with tasks.",
+                          "Mild: Anxiety caused some interference with certain tasks.",
+                          "Moderate: Anxiety definitely interferes with many tasks.",
                           "Severe: Anxiety greatly changed my ability to do tasks",
                           "Extreme: I am unable to complete tasks because of anxiety."],
             "esm_title":"OASIS",
             "esm_instructions":"Today, how much did anxiety interfere with your ability to do the things you needed to do?",
             "esm_trigger": "q4",
-            "esm_submit":"OK"}
+            "esm_submit":"Next"}
         },
         {"esm":
             {"esm_type":2,
@@ -68,7 +68,7 @@
             "esm_title":"OASIS",
             "esm_instructions":"Today, how much did anxiety interfere with your social life and relationships?",
             "esm_trigger": "q5",
-            "esm_submit":"OK"}
+            "esm_submit":"Submit"}
         }
     ]
 }]
