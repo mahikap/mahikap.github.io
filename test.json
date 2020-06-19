@@ -1,11 +1,11 @@
 [{
-    "schedule_id":"test_esm_001",
-    "hours":[18],
-    "randomize":5,
+    "schedule_id":"esm_iphone_pilot_01",
+    "hours":[14,18],
+    "randomize":0,
     "context":["daily_check"],
     "start_date":"06-16-2020",
     "expiration":60,
-    "end_date":"12-30-2025",
+    "end_date":"07-16-2020",
     "notification_title":"Daily Check-Up",
     "notification_body":"Please respond to these questions to the best of your ability.",
     "esms":[
