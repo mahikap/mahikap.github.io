@@ -95,11 +95,14 @@ nav ul li a {
   padding-bottom: 1em;
 }
 .nav-bar{
-  padding-left:45%;
+  margin-left: 25%;
+  padding-top: 1.5em;
 }
 .nav-title {
   font-weight: 280;
-  padding-top: 0.3em;
+}
+.news-date {
+  text-align: center;
 }
 
 @media (max-width: 620px) { 
@@ -113,6 +116,7 @@ nav ul li a {
     padding: 1.5em;
   }
   .nav-bar{
-    padding-left:5%;
+    padding-left:0.4em;
+    margin-left: 0;
   }
 }
