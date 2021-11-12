@@ -114,6 +114,9 @@ nav ul li a {
 .news-date {
   text-align: center;
 }
+.news-item {
+  text-align: left;
+}
 .center {
   display: block;
   margin-left: auto;
