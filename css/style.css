@@ -114,15 +114,15 @@ nav ul li a {
 .news-date {
   text-align: center;
 }
-.news-item {
-  text-align: left;
-}
-
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+}
+
+.paper-heading {
+  font-size: 18px;
 }
 
 @media (max-width: 620px) { 
