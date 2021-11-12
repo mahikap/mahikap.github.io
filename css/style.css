@@ -81,6 +81,7 @@ nav ul li a {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 50%;
 }
 .name{
   padding-left: 0.3em;
@@ -95,14 +96,33 @@ nav ul li a {
   padding-bottom: 1em;
 }
 .nav-bar{
-  margin-left: 25%;
-  padding-top: 1.5em;
+  padding-top: 2.5%;
 }
 .nav-title {
   font-weight: 280;
 }
+.uk-subnav {
+  margin-left: 0%;
+  padding-left: 0;
+}
+.uk-subnav-divider>* {
+  display: -webkit-inline-box;
+}
+.navigation {
+  padding-top: 0;
+}
 .news-date {
   text-align: center;
+}
+.news-item {
+  text-align: left;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 @media (max-width: 620px) { 

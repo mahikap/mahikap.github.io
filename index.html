@@ -36,20 +36,58 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+  <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+    <nav class="uk-navbar-container" uk-navbar>
+      <div class="uk-navbar-left">
+        <div class="uk-width-1-5"> 
+          <a href="#">
+            <img class="uk-navbar-item uk-logo center" src="imgs/logo1t.png" alt="Mahika in cursive font" style="margin-top: 0.8em;">
+          </a> 
+        </div>
+        <div class="uk-width-expand@m">
+          <ul uk-switcher="connect: .my-class" class="uk-subnav uk-subnav-divider nav-bar" uk-switcher>
+            <li><a class="nav-title" href="#" style="font-size:20px;">Letter</a></li>
+            <li><a class="nav-title" href="#" style="font-size:20px;">Publications</a></li>
+            <li><a class="nav-title" href="#" style="font-size:20px;">Awards</a></li>
+            <li><a class="nav-title" href="#" style="font-size:20px;">Press</a></li>
+            <li><a class="nav-title" href="#" style="font-size:20px;">Art</a></li>
+            <li><a class="nav-title" href="#" style="font-size:20px;">Poetry</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- <nav>
+    <ul class="uk-subnav uk-subnav-divider nav-bar uk-card-title" uk-switcher uk-margin>
+      <li class="uk-active"><a class="nav-title" href="#" style="font-size:20px;">Letter</a></li>
+      <li><a class="nav-title" href="#" style="font-size:20px;">Publications</a></li>
+      <li><a class="nav-title" href="#" style="font-size:20px;">Awards</a></li>
+      <li><a class="nav-title" href="#" style="font-size:20px;">Press</a></li>
+      <li><a class="nav-title" href="#" style="font-size:20px;">Art</a></li>
+      <li><a class="nav-title" href="#" style="font-size:20px;">Poetry</a></li>
+    </ul>
+    <ul class="uk-switcher uk-margin">
+        <li><a href="#letter"></a></li>
+        <li><a href="#hello2"></a></li>
+        <li>Bazinga!</li>
+        <li>Bazinga Art!</li>
+        <li>Bazinga Poetry!</li>
+    </ul>
+  </nav> -->
 
   <div class="uk-text-center uk-grid-match" uk-grid>
-
-
 
 <!-- PHOTO, NAME, EMAIL, AND SOCIAL MEDIA LINKS (TOP LEFT) -->
 <!-- PHOTO, NAME, EMAIL, AND SOCIAL MEDIA LINKS (TOP LEFT) --> 
 <!-- PHOTO, NAME, EMAIL, AND SOCIAL MEDIA LINKS (TOP LEFT) --> 
 <!-- PHOTO, NAME, EMAIL, AND SOCIAL MEDIA LINKS (TOP LEFT) --> 
 <!-- PHOTO, NAME, EMAIL, AND SOCIAL MEDIA LINKS (TOP LEFT) --> 
-      <div class="uk-width-1-4@m">
+      <div class="uk-width-1-5@m uk-first-column">
           <div class="uk-card uk-card-default uk-card-body name">
               <div class="uk-card-media-top profile-pic">
-                <img src="imgs/profilePic2.png" alt="Me outdoors leaning against a plant-filled wall looking upwards towards the sky">
+                <img src="imgs/profilePicRed.jpeg" style="border-radius: 10%;"
+                alt="Me outdoors leaning against a plant-filled wall looking upwards towards the sky">
             </div>
             <div class="uk-card-body name">
                 <h2 style="font-size:25px;" class="uk-card-title">Mahika Phutane</h2> 
@@ -67,9 +105,15 @@
                   href="https://medium.com/@mahika97" class="logo uk-link-muted fa fa-medium fa-lg" target="_blank"> 
                     <a href="https://medium.com/@mahika97" class="uk-link-muted";"></a> 
                 </a>
-            </div>
+              </div>
           </div>
       </div>
+
+<!-- NAVIGATION --> 
+<!-- NAVIGATION --> 
+<!-- NAVIGATION --> 
+<!-- NAVIGATION --> 
+<!-- NAVIGATION --> 
 
 
 <!-- INTRODUCTORY LETTER -->
@@ -77,98 +121,100 @@
 <!-- INTRODUCTORY LETTER -->
 <!-- INTRODUCTORY LETTER -->
 <!-- INTRODUCTORY LETTER --> 
-      <div class="uk-width-expand@m" uk-parallax="sepia: 80;">
-          <div class="intro uk-card uk-text-left uk-card-default uk-card-body">
-              <p> <span style="font-family:'Great Vibes',cursive;font-size:37px;">D</span> ear Reader, </p>
-              <p style="margin-left:2.5em;">
-                  I am <b>Mahika Phutane</b>, a PhD student in Computer Science at Cornell University. <br>
-                  I'm ever grateful to be advised by Shiri Azenkot at the Enhancing Ability Lab, where I attempt to answer the questions: 
-                  <br>
-                <p style="margin-left:5em"> 
-                  → how can we better understand, design, and deploy systems for accessibility? <br>
-
-                  → what are the social and technical complexities surrounding assistive technologies? <br>
-
-                  → can we facilitate interactions that cater to different abilities? <br>
-                </p>
+      <div class="navigation uk-card uk-text-left uk-card-default uk-card-body uk-width-3-5@m uk-height-match" uk-parallax="sepia: 80;">
+        <!-- <ul class="uk-subnav uk-subnav-divider nav-bar uk-card-title" uk-switcher uk-margin>
+          <li class="uk-active"><a class="nav-title" href="#" style="font-size:20px;">Letter</a></li>
+          <li><a class="nav-title" href="#" style="font-size:20px;">Publications</a></li>
+          <li><a class="nav-title" href="#" style="font-size:20px;">Awards</a></li>
+          <li><a class="nav-title" href="#" style="font-size:20px;">Press</a></li>
+          <li><a class="nav-title" href="#" style="font-size:20px;">Art</a></li>
+          <li><a class="nav-title" href="#" style="font-size:20px;">Poetry</a></li>
+        </ul> -->
+        <ul class="uk-switcher my-class uk-margin">
+            <li>
+                <p> <span style="font-family:'Great Vibes',cursive;font-size:37px;"></span> Dear Reader, </p>
                 <p style="margin-left:2.5em;">
-                  The answers to these questions are motivated by the fields of human-computer interaction, ubiquitous computing, machine learning, disability studies, and education. My research is supported by the Cornell Computer Science Fellowship, as well as the Dennis Washington Leadership Graduate Fellowship.<br><br>
+                    I am <b>Mahika Phutane</b>, a PhD student in Computer Science at Cornell University. <br>
+                    I'm ever grateful to be advised by Shiri Azenkot at the Enhancing Ability Lab, where I attempt to answer the questions: 
+                    <br>
+                  <p style="margin-left:5em"> 
+                    → how can we better understand, design, and deploy systems for accessibility? <br>
 
-                  Prior to Cornell, I completed by B.Sc. in Computer Science and CCIT (Communication, Culture, Information and Technology) at the University of Toronto, where I first learned about the world of research. For this, I thank my professors Daniel Zingaro, Jenna Hartel, and Cosmin Munteanu. <br>
+                    → what are the social and technical complexities surrounding assistive technologies? <br>
 
-                  Thank you for reading and I welcome you to read further where I share more about my past, present, and future. <br>
+                    → can we facilitate interactions that cater to different abilities? <br>
+                  </p>
+                  <p style="margin-left:2.5em;">
+                    The answers to these questions are motivated by the fields of human-computer interaction, ubiquitous computing, machine learning, disability studies, and education. My research is supported by the Cornell Computer Science Fellowship, as well as the Dennis Washington Leadership Graduate Fellowship.<br><br>
+
+                    Prior to Cornell, I completed by B.Sc. in Computer Science and CCIT (Communication, Culture, Information and Technology) at the University of Toronto, where I first learned about the world of research. For this, I thank my professors Daniel Zingaro, Jenna Hartel, and Cosmin Munteanu. <br>
+
+                    Thank you for reading and I welcome you to read further where I share more about my past, present, and future. <br>
+                  </p>
+                  <p>
+                    Take Care, 
+                  </p> 
+                  <p style="font-family:'Great Vibes',cursive;font-size:34px;margin-top:-15px;"> Mahika</p>
+
                 </p>
-                <p>
-                  Take Care, 
-                </p> 
-                <p style="font-family:'Great Vibes',cursive;font-size:34px;margin-top:-15px;"> Mahika</p>
-
-              </p>
-
-          </div>
+            </li>
+            <li>Hello again!</li>
+            <li>Hello !</li>
+            <li>Bazinga!</li>
+            <li>Bazinga Art!</li>
+            <li>Bazinga Poetry!</li>
+        </ul> 
       </div>
-  </div>
 
-<!-- NEWS -->
-<!-- NEWS -->
-<!-- NEWS -->
-<!-- NEWS -->
-<!-- NEWS -->
-  <div class="uk-grid-match" uk-grid>
-
-      <div class="uk-width-1-4@m">
+      <div class="uk-width-1-5@m uk-grid-match">
         <div class="uk-card uk-card-default uk-card-body name">
           <h3 style="text-align:center;font-size:22px;">NEWS </h3>
           <br>
-          <div style = "overflow-y:scroll;height:400px"> 
+          <div style = "overflow-y:scroll; height:600px"> 
           	<table class="uk-table">
+              <p style="margin:0;padding-top:0.3em;text-align:center;font-size:18px;">2021</p>
+              <tbody>
+                <tr>
+                  <td class="news-date" style="padding-top:0">May 18</td>
+                  <td class="news-item" style="padding-top:0;">Mid-Air Haptics Paper Published at CHI '21!</td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="uk-table">
           	<p style="margin:0;padding-top:0.3em;text-align:center;font-size:18px;">2020</p>
               <tbody>
                   <tr>
                       <td class="news-date" style="padding-top:0">Oct 1</td>
-                      <td style="padding-top:0">Presented Maestro at Google Magenta!</td>
+                      <td class="news-item" style="padding-top:0;">Presented Maestro at Google Magenta!</td>
                   </tr>
                   <tr>
                       <td class="news-date">Sept 4</td>
-                      <td>Started my PhD journey at Cornell University</td>
+                      <td class="news-item">Started my PhD journey at Cornell University</td>
                   </tr>
                   <tr>
                       <td class="news-date">June 27</td>
-                      <td>Graduated with a Honours Distinction from UofT with a B.Sc in Computer Science and CCIT! 🎓</td>
+                      <td class="news-item">Graduated with a Honours Distinction from UofT with a B.Sc in Computer Science and CCIT! 🎓</td>
                   </tr>
                   <tr>
                       <td class="news-date">Feb 28</td>
-                      <td>Appeared on the Wall Street Journal!</td>
+                      <td class="news-item">Appeared on the Wall Street Journal!</td>
                   </tr>
                   <tr>
                       <td class="news-date">Jan 18</td>
-                      <td>Awarded the Dennis Washington Leadership Graduate Fellowship</td>
+                      <td class="news-item">Awarded the Dennis Washington Leadership Graduate Fellowship</td>
                   </tr>
               </tbody>
           	</table>
           </div> 
         </div>
-
-      </div>
-      <div class="uk-width-expand@m uk-height-match">
-      	<div class="uk-card uk-card-default">
-        <ul class="uk-subnav uk-subnav-divider nav-bar uk-card-title" uk-switcher uk-margin>
-          <li class="uk-active"><a class="nav-title" href="#" style="font-size:20px;">Projects</a></li>
-          <li><a class="nav-title" href="#" style="font-size:20px;">Awards</a></li>
-          <li><a class="nav-title" href="#" style="font-size:20px;">Press</a></li>
-          <li><a class="nav-title" href="#" style="font-size:20px;">Art</a></li>
-          <li><a class="nav-title" href="#" style="font-size:20px;">Poetry</a></li>
-        </ul>
-        <ul class="uk-switcher uk-margin">
-            <li>Hello!</li>
-            <li>Hello again!</li>
-            <li>Bazinga!</li>
-            <li>Bazinga Art!</li>
-            <li>Bazinga Poetry!</li>
-        </ul>
-    	</div>
       </div>
   </div>
+
+<!-- NEWS -->
+<!-- NEWS -->
+<!-- NEWS -->
+<!-- NEWS -->
+<!-- NEWS -->
 
 </body>
 
