@@ -9,7 +9,7 @@ desc: >
 
 domain: mahikap.github.io
 url: https://mahikap.github.io      # put your website hosting url here
-baseurl: ''                 # the subpath of your site, e.g. /blog
+baseurl: '/mahikap.github.io'                 # the subpath of your site, e.g. /blog
 permalink: /:year/:title/   # how should we display posts url
 
 # Meta settings
