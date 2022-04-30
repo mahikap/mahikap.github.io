@@ -1,9 +1,12 @@
 ---
 layout: page
 title: Articles
-subtitle: Stuffs I write about
-desc: Stuffs I write about
+subtitle:
 ---
+
+<!-- <div class="lead pretty-links" style="font-weight:800; font-style:italic"></div>
+<hr style="border:1.5px solid #7771b064"> -->
+
 {% if paginator.page == 1 %}
   {% for post in site.posts limit: 2 %}
 <link rel="prerender" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">

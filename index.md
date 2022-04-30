@@ -13,7 +13,7 @@ I'm ever grateful to be advised by **[Shiri Azenkot](http://shiriazenkot.com/)**
   - How can we better understand, design, and deploy **systems for accessibility**? 
   - What are the **social and technical complexities** surrounding assistive technologies?
 
-I wish to study the nuanced relationship between people with disabilities and technology, a relationship that grows in significance with emerging technologies powered by AI systems.
+I wish to study the nuanced relationship between people with disabilities and technology, a relationship that grows in significance with emerging AI-backed systems.
 &nbsp;
 
 {::nomarkdown}
