@@ -1,6 +1,6 @@
 <footer class="site-footer">
 
-  <div class="site-copy">&copy; {{ site.time | date: '%Y' }}<span class="site-author">{{ site.author }}</span></div>
+  <!-- <div class="site-copy"> Updated {{ site.time | date: '%Y' }}</div> -->
 
   <div class="site-links">
     <div class="site-contact">
@@ -9,13 +9,14 @@
         <li><a href="mailto:{{ site.email }}">Contact</a></li>
         {% endif %}
 
-        {% if site.github_username %}
-        <li><a target="_blank" rel="external" href="https://github.com/{{ site.github_username }}">Github</a></li>
-        {% endif %}
-
         {% if site.twitter_username %}
         <li><a target="_blank" rel="external" href="https://twitter.com/{{ site.twitter_username }}">Twitter</a></li>
         {% endif %}
+
+        {% if site.gscholar_username %}
+        <li><a target="_blank" rel="external" href="https://scholar.google.com/citations?user=dv58QkoAAAAJ&hl=en">Google Scholar</a></li>
+        {% endif %}
+
       </ul>
     </div>
 

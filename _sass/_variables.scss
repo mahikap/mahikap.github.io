@@ -7,9 +7,10 @@ $gray-light:                #818a91;
 $gray-lighter:              #eceeef;
 $gray-lightest:             #fafaf8;
 
-$blue:                      #4072AF;
-$light-blue:                lighten($blue, 45%);
-$dark-blue:                 darken($blue, 20%);
+$blue:                      #766fc0;
+$blue2:                     rgb(65, 62, 113);
+$light-blue:                lighten($blue2, 45%);
+$dark-blue:                 darken($blue2, 20%);
 
 $ligt-yellow:               #fcf8e3;
 
