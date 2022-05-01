@@ -36,13 +36,15 @@ navigation:
     url: /publications
     desc: 'Publications: Papers & Demos'
   - title: Press
-    url: /about/
+    url: /press
     desc:
   - title: CV
     url: /assets/pdfs/CV.pdf
     desc: Stuffs I hate to do
 
+# sections on site
 publications: true 
+press: true
 
 # Used by Jekyll to recognize what is a post and what is a page
 defaults:

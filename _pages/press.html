@@ -2,7 +2,26 @@
 layout: page
 title: Press
 subtitle:
-permalink: /about
+permalink: /press
 ---
 
-To Appear
+<div class="lead pretty-links" style="font-weight:800; font-style:italic; font-size: 20px;">In the News</div>
+<hr style="border:0.5px solid #7771b064">
+
+{% if site.press %}
+    {% for news in site.data.press %}
+        <p style="font-size:16px;">
+            <span>{{ news.date }}. </span>
+            <span>{{ news.title }}. </span>
+            <!-- <br> -->
+            <span style="font-style: italic;">{{ news.source }}. </span>
+            <span>| <a href="{{ news.link }}" target="_blank">link</a></span> 
+            {% if news.highlight %}
+                &#9733;
+            {% endif %}
+        </p>    
+    {% endfor %}
+{% endif %}
+
+<br>
+<p style="font-size: 16px;">&#9733; = featured news</p>
