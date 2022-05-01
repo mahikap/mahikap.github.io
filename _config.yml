@@ -3,9 +3,8 @@
 # Site settings
 title: Mahika Phutane               # used for the html title of every page
 desc: >
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Mahika Phutane, a Cornell PhD student, muses on her life, projects, publications,
+  and art.
 
 domain: mahikap.github.io
 url: https://mahikap.github.io      # put your website hosting url here
@@ -34,14 +33,16 @@ navigation:
     url: /projects/
     desc: Ongoing Research Projects
   - title: Publications
-    url: /articles
+    url: /publications
     desc: 'Publications: Papers & Demos'
   - title: Work
     url: /work/
     desc: Stuffs I hate to do
   - title: Press
     url: /about/
-    desc: 
+    desc:
+
+publications: true 
 
 # Used by Jekyll to recognize what is a post and what is a page
 defaults:
