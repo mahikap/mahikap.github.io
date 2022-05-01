@@ -5,6 +5,21 @@ subtitle:
 permalink: /publications
 ---
 
+<!-- {% if site.publications %}
+  {% for project in site.data.publications %}
+  <div class="container-fluid">
+    <h3 >{{ project.name }}</h3>
+    <h4 class="post-date text-teal"> {{ project.date }} </h4>
+    <p>{{ project.description }}</p>
+    <p>Languages: {{  project.languages }}</p>
+    {% if project.link %}
+      <a class="text-teal" href={{ project.link }}>Check it out!</a>
+    {% endif %}  
+    <hr>
+  </div>
+  {% endfor %}
+{% endif %} -->
+
 {% if site.publications %}
   {% for project in site.data.publications %}
   <div class="container-fluid">
