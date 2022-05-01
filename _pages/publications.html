@@ -13,8 +13,8 @@ permalink: /publications
         <p style="font-size:16px;">
             {{ paper.title }}.
             <span style="font-style: italic;">{{ paper.venue }}. </span>
-            <span><a href="{{ paper.doi }}" target="_blank"> link </a></span>
-            <span><a href="{{ paper.pdf }}" target="_blank"> pdf </a></span>
+            <span>| <a href="{{ paper.doi }}" target="_blank">link</a></span>
+            <span> | <a href="{{ paper.pdf }}" target="_blank">pdf</a></span>
             <br>
             {% for author in paper.authors %}
                 {% if author == "Mahika Phutane," or  author == "Mahika Phutane" %}

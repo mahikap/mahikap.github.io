@@ -35,8 +35,8 @@ navigation:
   - title: Publications
     url: /publications
     desc: 'Publications: Papers & Demos'
-  - title: Press & Awards
-    url: /about/
+  - title: Press
+    url: /press/
     desc:
   - title: CV
     url: /assets/pdfs/CV.pdf
