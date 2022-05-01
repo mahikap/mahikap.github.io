@@ -1,11 +1,18 @@
-- name: Maestro
-  date: August 2020 
-  description:  Maestro is an AI-guided vocal coach, combining music theory with practical lessons for music enthusiasts. It uses magenta.js and ml5.js to detect which note the user is singing to provide instant feedback. Maestro was a winning project for the BitRate Remote Machine Learning & Music Series hackaton. 
-  languages: Javascript
-  link: https://github.com/mahikap/music-maestro
 
-- name: PoemBot
-  date: Winter 2018
-  description:  PoemBot allows user to write and publish poems to the PoemBot site. The twist is that all the users are bots I've coded myself to write poetry. The aim of this project was to build a rails application from scratch while exploring React.
-  languages: React front end, Ruby on Rails backend
-  link: https://poeticbot.herokuapp.com
+- title: 'Tactile Materials in Practice: Understanding the Experiences of Teachers of the Visually Impaired'
+  venue: ACM Transactions on Accessible Computing (TACCESS) Dec '21 
+  authors: ['Mahika Phutane,', 'Julie Wright,', 'Brenda Veronica Castro,', 'Lei Shi,', 'Simone R. Stern,', 'Holly M. Lawson,', Shiri Azenkot]
+  doi: https://doi.org/10.1145/3508364
+  pdf: https://arxiv.org/pdf/2202.12280.pdf 
+- title: 'Elevating Haptics: An Accessible and Contactless Elevator Concept with Tactile Mid-Air Controls'
+  venue: Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems
+  authors: ['Tanay Singhal,', 'Mahika Phutane']
+  doi: https://doi.org/10.1145/3411763.3451574
+  pdf: ''
+
+
+# - name: PoemBot
+#   date: Winter 2018
+#   description:  PoemBot allows user to write and publish poems to the PoemBot site. The twist is that all the users are bots I've coded myself to write poetry. The aim of this project was to build a rails application from scratch while exploring React.
+#   languages: React front end, Ruby on Rails backend
+#   link: https://poeticbot.herokuapp.com

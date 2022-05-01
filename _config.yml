@@ -35,12 +35,12 @@ navigation:
   - title: Publications
     url: /publications
     desc: 'Publications: Papers & Demos'
-  - title: Work
-    url: /work/
-    desc: Stuffs I hate to do
-  - title: Press
+  - title: Press & Awards
     url: /about/
     desc:
+  - title: CV
+    url: /assets/pdfs/CV.pdf
+    desc: Stuffs I hate to do
 
 publications: true 
 

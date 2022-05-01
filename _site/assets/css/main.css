@@ -40,7 +40,7 @@ a:not([href]):not([tabindex]):focus { outline: none; }
 
 b, strong { font-weight: bolder; }
 
-img { border-style: none; vertical-align: middle; max-width: 100%; }
+img { border-style: none; vertical-align: middle; }
 
 svg:not(:root) { overflow: hidden; }
 
