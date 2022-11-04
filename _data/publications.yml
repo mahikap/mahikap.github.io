@@ -1,19 +1,21 @@
 
-- title: 'Nothing Micro About It: Examining Ableist Microaggressions on Social Media'
-  venue: ACM SIGACCESS Conference on Computers and Accessibility (ASSETS ’22) Oct '22 
-  authors: ['Sharon Heung,', 'Mahika Phutane,', 'Shiri Azenkot,', 'Megh Marathe,', 'Aditya Vashistha']
-  doi: https://doi.org/10.1145/3517428.3544801
-  pdf: https://www.adityavashistha.com/uploads/2/0/8/0/20800650/microaggressions-assets-2022.pdf  
-- title: 'Tactile Materials in Practice: Understanding the Experiences of Teachers of the Visually Impaired'
-  venue: ACM Transactions on Accessible Computing (TACCESS) Oct '22 
-  authors: ['Mahika Phutane,', 'Julie Wright,', 'Brenda Veronica Castro,', 'Lei Shi,', 'Simone R. Stern,', 'Holly M. Lawson,', Shiri Azenkot]
-  doi: https://doi.org/10.1145/3508364
-  pdf: https://arxiv.org/pdf/2202.12280.pdf 
-- title: 'Elevating Haptics: An Accessible and Contactless Elevator Concept with Tactile Mid-Air Controls'
-  venue: Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems
-  authors: ['Tanay Singhal,', 'Mahika Phutane']
-  doi: https://doi.org/10.1145/3411763.3451574
-  pdf: ''
+- 2022
+  - title: 'Nothing Micro About It: Examining Ableist Microaggressions on Social Media'
+    venue: ACM SIGACCESS Conference on Computers and Accessibility (ASSETS ’22) Oct '22 
+    authors: ['Sharon Heung,', 'Mahika Phutane,', 'Shiri Azenkot,', 'Megh Marathe,', 'Aditya Vashistha']
+    doi: https://doi.org/10.1145/3517428.3544801
+    pdf: https://www.adityavashistha.com/uploads/2/0/8/0/20800650/microaggressions-assets-2022.pdf  
+  - title: 'Tactile Materials in Practice: Understanding the Experiences of Teachers of the Visually Impaired'
+    venue: ACM Transactions on Accessible Computing (TACCESS) Oct '22 
+    authors: ['Mahika Phutane,', 'Julie Wright,', 'Brenda Veronica Castro,', 'Lei Shi,', 'Simone R. Stern,', 'Holly M. Lawson,', Shiri Azenkot]
+    doi: https://doi.org/10.1145/3508364
+    pdf: https://arxiv.org/pdf/2202.12280.pdf
+- 2021
+  - title: 'Elevating Haptics: An Accessible and Contactless Elevator Concept with Tactile Mid-Air Controls'
+    venue: Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems
+    authors: ['Tanay Singhal,', 'Mahika Phutane']
+    doi: https://doi.org/10.1145/3411763.3451574
+    pdf: ''
 
 
 # - name: PoemBot
