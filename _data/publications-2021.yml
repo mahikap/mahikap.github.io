@@ -1,0 +1,13 @@
+
+- title: 'Elevating Haptics: An Accessible and Contactless Elevator Concept with Tactile Mid-Air Controls'
+  venue: Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems
+  authors: ['Tanay Singhal,', 'Mahika Phutane']
+  doi: https://doi.org/10.1145/3411763.3451574
+  pdf: ''
+
+
+# - name: PoemBot
+#   date: Winter 2018
+#   description:  PoemBot allows user to write and publish poems to the PoemBot site. The twist is that all the users are bots I've coded myself to write poetry. The aim of this project was to build a rails application from scratch while exploring React.
+#   languages: React front end, Ruby on Rails backend
+#   link: https://poeticbot.herokuapp.com
