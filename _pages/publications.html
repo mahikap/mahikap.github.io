@@ -10,8 +10,8 @@ permalink: /publications
 
 {% if site.publications %}
     {% for year in site.data.publications %} 
-    <div class="lead pretty-links" style="font-weight:800; font-style:italic; font-size: 20px;">{{year}}</div>
-    <hr style="border:0.5px solid #7771b064">
+        <div class="lead pretty-links" style="font-weight:800; font-style:italic; font-size: 20px;">{{year}}</div>
+        <hr style="border:0.5px solid #7771b064">
         {% for paper in year %}
             <p style="font-size:16px;">
                 {{ paper.title }}.
