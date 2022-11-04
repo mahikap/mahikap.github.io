@@ -24,7 +24,11 @@ I wish to study the nuanced relationship between people with disabilities and te
 News Highlights
 </div>
 
-**March 2022**: &ensp;[Paper](https://dl.acm.org/doi/abs/10.1145/3508364) accepted to TACCESS!
+**Oct 2022**: &ensp;Presented Tactile Materials [Paper](https://dl.acm.org/doi/abs/10.1145/3508364) at ASSETS '22 in Athens, Greece!
+
+**April 2022**: &ensp;Tactile Materials [Paper](https://dl.acm.org/doi/10.1145/3517428.3544801) accepted to ASSETS '22!
+
+**March 2022**: &ensp;Microaggressions [Paper](https://dl.acm.org/doi/abs/10.1145/3508364) accepted to TACCESS!
 
 **May 2021**: &ensp;[Paper](https://dl.acm.org/doi/10.1145/3411763.3451574) accepted at CHI Interactivity!
 
