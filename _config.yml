@@ -37,10 +37,10 @@ navigation:
     desc: 'Publications: Papers & Demos'
   - title: Press
     url: /press
-    desc:
+    desc: 'Press and Media Coverage of Research Projects and Awards'
   - title: CV
-    url: /assets/pdfs/CV-22-05.pdf
-    desc: Stuffs I hate to do
+    url: /assets/pdfs/Academic_CV_MahikaP.pdf
+    desc: 'Link to CV pdf'
 
 # sections on site
 publications: true 
