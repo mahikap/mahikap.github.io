@@ -9,7 +9,7 @@ Hi! I'm **Mahika Phutane**, a PhD student at Cornell University.
 </div>
 
 
-I'm ever grateful to be advised by **[Shiri Azenkot](http://shiriazenkot.com/)** at the Enhancing Ability Lab, where I explore the following questions:
+I'm advised by **[Shiri Azenkot](http://shiriazenkot.com/)** at the Enhancing Ability Lab, where I explore the following questions:
   - How can we better understand, design, and deploy **systems for accessibility**? 
   - What are the **social and technical complexities** surrounding assistive technologies?
 
