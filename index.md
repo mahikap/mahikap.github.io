@@ -24,11 +24,14 @@ I wish to study the nuanced relationship between people with disabilities and te
 News Highlights
 </div>
 
-**May 2023**: &ensp;Began working with the NYC Mayor's Office of People with Disabilities! Awarded the [PiTech Fellowship](https://www.pi.tech.cornell.edu/spotlight/siegel-pitech-impact-fellowship-in-its-third-year) 
+**Oct 2023**: &ensp;Presented Conversational Screen Reader [Paper](https://dl.acm.org/doi/10.1145/3597638.3608404) at ASSETS '23 in NYC!
+
+**Sep 2023**: &ensp;Awarded the DLI Doctoral [Fellowship](https://www.dli.tech.cornell.edu/people)!
+
+**May 2023**: &ensp;Awarded the [PiTech Fellowship](https://www.pi.tech.cornell.edu/spotlight/siegel-pitech-impact-fellowship-in-its-third-year) 
+to work with the NYC Mayor's Office of People with Disabilities! 
 
 **Oct 2022**: &ensp;Presented Tactile Materials [Paper](https://dl.acm.org/doi/abs/10.1145/3508364) at ASSETS '22 in Athens, Greece!
-
-**April 2022**: &ensp;Microaggressions [Paper](https://dl.acm.org/doi/10.1145/3517428.3544801) accepted to ASSETS '22!
 
 **May 2021**: &ensp;[Paper](https://dl.acm.org/doi/10.1145/3411763.3451574) accepted at CHI Interactivity!
 
