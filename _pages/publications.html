@@ -5,6 +5,28 @@ subtitle:
 permalink: /publications
 ---
 
+<div class="lead pretty-links" style="font-weight:800; font-style:italic; font-size: 20px;">2023</div>
+<hr style="border:0.5px solid #7771b064">
+
+{% if site.publications %}
+    {% for paper in site.data.publications-2023 %}
+        <p style="font-size:16px;">
+            {{ paper.title }}.
+            <span style="font-style: italic;">{{ paper.venue }}. </span>
+            <span>| <a href="{{ paper.doi }}" target="_blank">link</a></span>
+            <span> | <a href="{{ paper.pdf }}" target="_blank">pdf</a></span>
+            <br>
+            {% for author in paper.authors %}
+                {% if author == "Mahika Phutane," or  author == "Mahika Phutane" %}
+                    <span style="font-weight:bold">{{ author }}</span>
+                {% else %}
+                    <span>{{ author }}</span>
+                {% endif %}
+            {% endfor %} 
+        </p>    
+    {% endfor %}
+{% endif %}
+
 <div class="lead pretty-links" style="font-weight:800; font-style:italic; font-size: 20px;">2022</div>
 <hr style="border:0.5px solid #7771b064">
 
