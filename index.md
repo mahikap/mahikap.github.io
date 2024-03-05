@@ -13,7 +13,7 @@ I study how **conversational artificial intelligence (CAI)** can support people 
 
 A key aspect of this technology is its capability to engage with users through natural language speech and human-like behavior. As these technologies shift from mere tools to “smart” assistive companions, there is a concern that these technologies may perpetuate ableist behaviors, such as offering unsolicited help, or displaying ableist content. 
 
-I love to explore new and creative usability methods. My research spans the fields of Human-Computer Interaction, Accessibility, and Human-Centered NLP.
+I love devising creative methods to identify, understand, and address these emerging concerns. My research spans the fields of Human-Computer Interaction, Accessibility, and Human-Centered NLP.
 &nbsp;
 
 {::nomarkdown}
