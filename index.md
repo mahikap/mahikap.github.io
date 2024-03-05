@@ -9,11 +9,9 @@ Hi! I'm **Mahika Phutane**, a PhD student at Cornell University.
 </div>
 
 
-I'm advised by **[Shiri Azenkot](http://shiriazenkot.com/)** at the Enhancing Ability Lab, where I explore the following questions:
-  - How can we better understand, design, and deploy **systems for accessibility**? 
-  - What are the **social and technical complexities** surrounding assistive technologies?
+I study how conversational artificial intelligence (CAI) can support people with disabilities. A key aspect of this technology is its capability to engage with users through natural language speech and human-like behavior. As these technologies shift from mere tools to “smart” assistive companions, there is a concern that these technologies may perpetuate ableist behaviors, such as offering unsolicited help, or displaying ableist content. 
 
-I wish to study the nuanced relationship between people with disabilities and technology, a relationship that grows in significance with emerging AI-backed systems.
+
 &nbsp;
 
 {::nomarkdown}
