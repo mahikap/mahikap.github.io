@@ -4,12 +4,12 @@ layout: default
 
 <div class="lead pretty-links">
 
-Hi! I'm **Mahika Phutane**, a PhD student at Cornell University. 
+Hi! I'm **Mahika Phutane**, a 4th year PhD student at Cornell University. 
 
 </div>
 
 
-I study how **conversational artificial intelligence (CAI)** can support people with disabilities. 
+I study how **conversational artificial intelligence (CAI)** serves, represents, and supports people with disabilities. 
 
 A key aspect of this technology is its capability to engage with users through natural language speech and human-like behavior. As these technologies shift from mere tools to “smart” assistive companions, there is a concern that these technologies may perpetuate ableist behaviors, such as offering unsolicited help, or displaying ableist content. 
 
