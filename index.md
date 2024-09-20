@@ -4,17 +4,15 @@ layout: default
 
 <div class="lead pretty-links">
 
-Hi! I'm **Mahika Phutane**, a PhD student at Cornell University. 
+Hi! I'm **Mahika Phutane**, a PhD candidate at Cornell.
 
 </div>
+I'm advised by [Prof. Aditya Vashistha](https://www.adityavashistha.com/), and I study how artificial intelligence (AI) serves, represents, and supports people with disabilities.
 
+As these technologies shift from mere tools to “smart” assistive technologies, there is a concern that **these technologies may perpetuate disability bias and promote ableist behaviors** and sentiments. I use a mixture of quantitative, qualitative, and design research methods to identify these emerging concerns. Through my work, I work closely with marginalized populations and advocate for equitable disability representation in emerging AI systems.
 
-I'm advised by **[Shiri Azenkot](http://shiriazenkot.com/)** at the Enhancing Ability Lab, where I explore the following questions:
-  - How can we better understand, design, and deploy **systems for accessibility**? 
-  - What are the **social and technical complexities** surrounding assistive technologies?
-
-I wish to study the nuanced relationship between people with disabilities and technology, a relationship that grows in significance with emerging AI-backed systems.
-&nbsp;
+My research spans the fields of Human-Computer Interaction, Accessibility, and Natural Language Processing. I am generously funded by the [Dennis Washington Foundation](https://www.dpwfoundation.org/scholarships/dennis-washington-leadership-graduate-scholarship/), and hold ongoing collaborations with Microsoft Research India, and the NYC Mayor’s Office of People with Disabilities. 
+<br>
 
 {::nomarkdown}
 <hr style="border:0.5px solid silver">
@@ -24,12 +22,13 @@ I wish to study the nuanced relationship between people with disabilities and te
 News Highlights
 </div>
 
+**Jun 2024**: &ensp;Started an internship at Microsoft Research India in Bengaluru!
+
 **Oct 2023**: &ensp;Presented Conversational Screen Reader [Paper](https://dl.acm.org/doi/10.1145/3597638.3608404) at ASSETS '23 in NYC!
 
 **Sep 2023**: &ensp;Awarded the DLI Doctoral [Fellowship](https://www.dli.tech.cornell.edu/people)!
 
-**May 2023**: &ensp;Awarded the [PiTech Fellowship](https://www.pi.tech.cornell.edu/spotlight/siegel-pitech-impact-fellowship-in-its-third-year) 
-to work with the NYC Mayor's Office of People with Disabilities! 
+**May 2023**: &ensp;Awarded the [PiTech Fellowship](https://www.pi.tech.cornell.edu/spotlight/siegel-pitech-impact-fellowship-in-its-third-year) to work with the NYC MOPD! 
 
 **Oct 2022**: &ensp;Presented Tactile Materials [Paper](https://dl.acm.org/doi/abs/10.1145/3508364) at ASSETS '22 in Athens, Greece!
 
