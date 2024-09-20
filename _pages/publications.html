@@ -3,7 +3,32 @@ layout: page
 title: Publications
 subtitle:
 permalink: /publications
+
 ---
+<p style="font-size:16px;">For a full list of papers, please visit 
+    <a href="https://scholar.google.com/citations?user=dv58QkoAAAAJ&hl=en" target="_blank">Google Scholar</a>.</p> <br>
+
+<div class="lead pretty-links" style="font-weight:800; font-style:italic; font-size: 20px;">2024</div>
+<hr style="border:0.5px solid #7771b064">
+
+{% if site.publications %}
+    {% for paper in site.data.publications-2024 %}
+        <p style="font-size:16px;">
+            <span style="font-style: italic;">{{ paper.title }}.</span>
+            <span style="font-style: italic;">{{ paper.venue }}. </span>
+            <span>| <a href="{{ paper.doi }}" target="_blank">link</a></span>
+            <span> | <a href="{{ paper.pdf }}" target="_blank">pdf</a></span>
+            <br>
+            {% for author in paper.authors %}
+                {% if author == "Mahika Phutane," or  author == "Mahika Phutane" %}
+                    <span style="font-weight:bold">{{ author }}</span>
+                {% else %}
+                    <span>{{ author }}</span>
+                {% endif %}
+            {% endfor %} 
+        </p>    
+    {% endfor %}
+{% endif %}
 
 <div class="lead pretty-links" style="font-weight:800; font-style:italic; font-size: 20px;">2023</div>
 <hr style="border:0.5px solid #7771b064">
@@ -11,7 +36,7 @@ permalink: /publications
 {% if site.publications %}
     {% for paper in site.data.publications-2023 %}
         <p style="font-size:16px;">
-            {{ paper.title }}.
+            <span style="font-style: italic;">{{ paper.title }}.</span>
             <span style="font-style: italic;">{{ paper.venue }}. </span>
             <span>| <a href="{{ paper.doi }}" target="_blank">link</a></span>
             <span> | <a href="{{ paper.pdf }}" target="_blank">pdf</a></span>
@@ -33,7 +58,7 @@ permalink: /publications
 {% if site.publications %}
     {% for paper in site.data.publications-2022 %}
         <p style="font-size:16px;">
-            {{ paper.title }}.
+            <span style="font-style: italic;">{{ paper.title }}.</span>
             <span style="font-style: italic;">{{ paper.venue }}. </span>
             <span>| <a href="{{ paper.doi }}" target="_blank">link</a></span>
             <span> | <a href="{{ paper.pdf }}" target="_blank">pdf</a></span>
@@ -55,7 +80,7 @@ permalink: /publications
 {% if site.publications %}
     {% for paper in site.data.publications-2021 %}
         <p style="font-size:16px;">
-            {{ paper.title }}.
+            <span style="font-style: italic;">{{ paper.title }}.</span>
             <span style="font-style: italic;">{{ paper.venue }}. </span>
             <span>| <a href="{{ paper.doi }}" target="_blank">link</a></span>
             <span> | <a href="{{ paper.pdf }}" target="_blank">pdf</a></span>
