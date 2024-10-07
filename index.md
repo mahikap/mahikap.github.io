@@ -9,7 +9,7 @@ Hi! I'm **Mahika Phutane**, a PhD candidate at Cornell.
 </div>
 I'm advised by [Prof. Aditya Vashistha](https://www.adityavashistha.com/), and I study how artificial intelligence (AI) serves, represents, and supports people with disabilities.
 
-As these technologies shift from mere tools to “smart” assistive technologies, there is a concern that **these technologies may perpetuate disability bias and promote ableist behaviors** and sentiments. I use a mixture of quantitative, qualitative, and design research methods to identify these emerging concerns. Through my work, I work closely with marginalized populations and advocate for equitable disability representation in emerging AI systems.
+As assistive technologies begin to incorporate and rely on emerging AI systems, there is a concern that **these technologies may perpetuate disability bias and promote ableist behaviors** and sentiments. I use a mixture of quantitative, qualitative, and design research methods to identify these growing concerns. Through my work, I work closely with marginalized populations and advocate for equitable disability representation in these emerging AI systems.
 
 My research spans the fields of Human-Computer Interaction, Accessibility, and Natural Language Processing. I am generously funded by the [Dennis Washington Foundation](https://www.dpwfoundation.org/scholarships/dennis-washington-leadership-graduate-scholarship/), and hold ongoing collaborations with Microsoft Research India, and the NYC Mayor’s Office of People with Disabilities. 
 <br>
