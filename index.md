@@ -11,7 +11,7 @@ I'm advised by [Prof. Aditya Vashistha](https://www.adityavashistha.com/), and I
 
 As assistive technologies begin to incorporate and rely on emerging AI systems, there is a concern that **these technologies may perpetuate disability bias and promote ableist behaviors** and sentiments. I use a mixture of quantitative, qualitative, and design research methods to identify these growing concerns. Through my work, I work closely with marginalized populations and advocate for equitable disability representation in these emerging AI systems.
 
-My research spans the fields of Human-Computer Interaction, Accessibility, and Natural Language Processing. I am generously funded by the [Dennis Washington Foundation](https://www.dpwfoundation.org/scholarships/dennis-washington-leadership-graduate-scholarship/), and hold ongoing collaborations with Microsoft Research India, and the NYC Mayor’s Office of People with Disabilities. 
+My research spans the fields of Human-Computer Interaction, Accessibility, and AI Fairness. I am generously funded by the [Dennis Washington Foundation](https://www.dpwfoundation.org/scholarships/dennis-washington-leadership-graduate-scholarship/), and hold ongoing collaborations with Microsoft Research India, and the NYC Mayor’s Office of People with Disabilities. 
 <br>
 
 {::nomarkdown}
@@ -21,6 +21,8 @@ My research spans the fields of Human-Computer Interaction, Accessibility, and N
 <div style="font-size: 20px;">
 News Highlights
 </div>
+
+**Jun 2025**: &ensp;Presented Ableism in LLMs [Paper](https://dl.acm.org/doi/10.1145/3715275.3732128) at FAccT '25 in Athens, Greece!
 
 **Jun 2024**: &ensp;Started an internship at Microsoft Research India in Bengaluru!
 
