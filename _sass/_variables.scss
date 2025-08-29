@@ -36,7 +36,7 @@ $link-hover-decoration:     underline;
 
 // GLOBALS - SPACERS ------------------
 $spacer:                    1rem;
-$spacer0:                   math.div($spacer, 2);
+$spacer0:                   $spacer/2;
 $spacer1:                   $spacer * 1.5;
 $spacer2:                   $spacer * 2;
 $spacer3:                   $spacer * 2.5;
