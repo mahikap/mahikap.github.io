@@ -13,3 +13,11 @@
 
 @import "site";             // Styles specific to the site architecture
 @import "page";             // Styles specific to the pages
+
+$phone-max-width: 420px;
+.headshot {
+    @media screen and (max-width: $phone-max-width) {
+        display: flex;
+        justify-content: center;
+    }
+}
