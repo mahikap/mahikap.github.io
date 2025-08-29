@@ -81,7 +81,7 @@ nav ul li a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 .name{
   padding-left: 0.3em;
@@ -124,19 +124,22 @@ nav ul li a {
   width: 80%;
 }
 
-img[src*="#profile"] {
+/* img[src*="#profile"] {
   max-width: 80%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
-}
+} */
 
 .paper-heading {
   font-size: 18px;
 }
 
-@media (max-width: 620px) { 
+@media screen and (max-width: 480px) { 
+  .headshot{
+    display: flex;
+  }
   .profile-pic {
     max-width: 50%;
     display: block;
