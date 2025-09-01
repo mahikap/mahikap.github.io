@@ -52,7 +52,7 @@ News Highlights
 
 **Jun 2024**: &ensp;Started an internship at Microsoft Research India in Bengaluru!
 
-**Oct 2023**: &ensp;Presented Conversational Screen Reader [Paper](https://dl.acm.org/doi/10.1145/3597638.3608404) at ASSETS '23 in NYC!
+**Oct 2023**: &ensp;Presented Screen Reader Audio Fictions [Paper](https://dl.acm.org/doi/10.1145/3597638.3608404) at ASSETS '23 in NYC!
 
 **Sep 2023**: &ensp;Awarded the DLI Doctoral [Fellowship](https://www.dli.tech.cornell.edu/people)!
 
@@ -60,13 +60,15 @@ News Highlights
 
 **Oct 2022**: &ensp;Presented Tactile Materials [Paper](https://dl.acm.org/doi/abs/10.1145/3508364) at ASSETS '22 in Athens, Greece!
 
-**May 2021**: &ensp;[Paper](https://dl.acm.org/doi/10.1145/3411763.3451574) accepted at CHI Interactivity!
-
 **Jan 2021**: &ensp;Presented [Maestro](https://magenta.tensorflow.org/maestro-vocal-coach), an AI Vocal Coach, at Google Magenta
+
+**Aug 2020:**&ensp;Began my PhD at Cornell University! (albeit, remotely)
 
 **May 2020:**&ensp;Graduated from UToronto with a B.Sc in Computer Science and CCIT! 🎓
 
 **Feb 2020:**&ensp;Appeared in the Wall Street Journal for winning [Dennis Washington Fellowship](https://www.utm.utoronto.ca/main-news/scholarship-gives-former-utm-student-push-strive-something-bigger)!
+
+<!-- **May 2021**: &ensp;[Paper](https://dl.acm.org/doi/10.1145/3411763.3451574) accepted at CHI Interactivity! -->
 
 <!-- Thank you for being here, and I welcome you to read further where I delve more into:
   - [my past](about/), my prior research work and undergrad experience
