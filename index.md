@@ -2,9 +2,10 @@
 layout: default
 ---
 
-<div class="lead pretty-links">
-
-Hi! I'm **Mahika Phutane**, a PhD candidate at Cornell.
+<div class="lead pretty-links" style="font-size:1.45rem">
+<!-- <p  style="font-size:1.45rem">   -->
+  Hi! I'm **Mahika Phutane**, a PhD Candidate in Computer Science at Cornell University. 
+<!-- </p> -->
 
 <p class="headshot">
 <img class="profile-pic"
