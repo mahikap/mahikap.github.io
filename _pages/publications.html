@@ -20,7 +20,7 @@ permalink: /publications
             <span> | <a href="{{ paper.pdf }}" target="_blank">pdf</a></span>
             <br>
             {% for author in paper.authors %}
-                {% if author == "Mahika Phutane," or  author == "Mahika Phutane" %}
+                {% if author == "Mahika Phutane," or  author == "Mahika Phutane" or  author == "Mahika Phutane*," %}
                     <span style="font-weight:bold">{{ author }}</span>
                 {% else %}
                     <span>{{ author }}</span>

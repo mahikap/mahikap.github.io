@@ -30,7 +30,7 @@ More broadly, my research lies at the intersections of Human-Computer Interactio
 <br>
 <br>
 My research is published in top venues such as ACM CHI, ASSETS, FAccT, and AAAI/ACM AIES, 
-and spans collaborations across industry (Microsoft Research), and government (NYC Mayor’s Office of PwD).
+and spans collaborations across industry (Microsoft Research India), and government (NYC Mayor’s Office of PwD).
 My work has been generously supported by the [Dennis Washington Foundation](https://www.dpwfoundation.org/scholarships/dennis-washington-leadership-graduate-scholarship/), [Siegel Public Interest Tech Impact Fellowship](https://www.pi.tech.cornell.edu/pitech-phd-impact-fellowship), and DLI Doctoral Fellowship.
 <!-- As assistive technologies begin to incorporate and rely on emerging AI systems, there is a concern that **these technologies may perpetuate disability bias and promote ableist behaviors** and sentiments.
 I use a mixture of quantitative, qualitative, and design research methods to identify these growing concerns. 
