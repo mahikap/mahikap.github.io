@@ -47,9 +47,9 @@ My research spans the fields of Human-Computer Interaction, Accessibility, and A
 News Highlights
 </div>
 
-**July 2025**:&ensp;Paper on [Cross-Cultural Ableism in AI](https://arxiv.org/abs/2507.16130) accepted at AIES '25!
+**Oct 2025**:&ensp;Presented paper on [Cross-Cultural Ableism in LLMs](https://arxiv.org/abs/2507.16130) at AIES '25 in Madrid, Spain!
 
-**Jun 2025**: &ensp;Presented Ableism in LLMs [Paper](https://dl.acm.org/doi/10.1145/3715275.3732128) at FAccT '25 in Athens, Greece!
+**Jun 2025**: &ensp;Presented paper on [Ableism in LLMs](https://dl.acm.org/doi/10.1145/3715275.3732128) at FAccT '25 in Athens, Greece!
 
 **Jun 2024**: &ensp;Started an internship at Microsoft Research India in Bengaluru!
 
